@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 소개</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> <!-- JavaScript 파일 추가 -->
+</head>
+<body>
+    <header>
+        <h1>안녕하세요, 저는 오찬희입니다!</h1>
+    </header>
+
+    <section class="about-me">
+        <h2 id="me-title">ME</h2> <!-- 화살표 코드 제거 -->
+        <p>
+            저는 오찬희입니다. 현재 전북대학교 스마트팜학과에 재학 중이며, 관심 분야는 코딩과 농업입니다. 
+            이 페이지를 통해 저를 소개하고 싶습니다.
+            그럼 시작하겠습니다! <span class="heart">❤️</span> <!-- 하트 이모티콘 추가 -->
+        </p>
+        <!-- 숨겨진 이미지 추가 -->
+        <img id="me-image" src="your-photo.jpg" alt="오찬희 사진" style="display:none; max-width:100%; height:auto;">
+    </section>
+
+    <section class="career">
+        <h2>career</h2>
+        <ul>
+            <li>용와초등학교 졸업</li>
+            <li>용흥중학교 졸업</li>
+            <li>전주대학교사범대학부설고등학교 졸업</li>
+            <li>전북대학교 스마트팜학과 재학 중</li>
+        </ul>
+    </section>
+
+    <section class="likes">
+        <h2>likes</h2>
+        <ul>
+            <li>고양이</li>
+            <li>여행</li>
+            <li>먹기</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 오찬희. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
